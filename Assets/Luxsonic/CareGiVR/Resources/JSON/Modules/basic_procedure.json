@@ -1,0 +1,44 @@
+{
+	"basic_procedure": {
+		"name": "Basic Procedure",
+		"description": "A basic sequential procedure.",
+		"type": "sequential",
+		"steps": [
+		  "step_one",
+		  "step_two",
+		  "step_three",
+		  "step_four"
+		],
+		"procedures": {
+		  "step_one": {
+			"name": "Step One",
+			"description": "This is step one of a procedure.",
+			"type": "atomic",  
+			"object_identifier": "information_ui",
+			"completion_event": "okay"
+		  },
+		  "step_two": {
+			"name": "Step Two",
+			"description": "This is step two of a procedure.",
+			"type": "atomic",
+			"object_identifier": "information_ui",
+			"completion_event": "okay"
+		  },
+		  "step_three": {
+			"name": "Step Three",
+			"description": "This is step three of a procedure.",
+			"type": "atomic",
+			"object_identifier": "information_ui",
+			"completion_event": "okay"
+		  },
+		  "step_four": {
+			"name": "Sequence Complete",
+			"description": "Sequence complete. Press Okay to restart.",
+			"type": "atomic",
+			"object_identifier": "information_ui",
+			"completion_event": "okay"
+		  }
+		}
+	  }
+	}
+  
